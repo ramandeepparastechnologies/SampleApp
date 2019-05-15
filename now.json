@@ -1,6 +1,10 @@
 
 {
     "builds": [
-        { "src": "*.html", "use": "@now/static" },
-        { "src": "*.js", "use": "@now/node" }]
+        { "src": "*/public/index.html", "use": "@now/static" },
+        { "src": "*/public/js/app.js", "use": "@now/node" },
+        {
+            "version": 2
+          }
+    ]
   }
