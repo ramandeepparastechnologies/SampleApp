@@ -1,7 +1,4 @@
 
 {
-    "version": 1,
-    "name": "webrtc",
-    "alias": "thewebrtc",
-    "routes": [{ "src": "/(.*)", "dest": "app.js" }]
+    "builds": [{ "src": "*.js", "use": "@now/node" }]
   }
